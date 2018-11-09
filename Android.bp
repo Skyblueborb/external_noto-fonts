@@ -1,0 +1,10 @@
+filegroup {
+    name: "recovery_noto-fonts_dep",
+	export_to_make_var: "recovery_noto-fonts_dep",
+    srcs: [
+		"cjk/*.ttc",
+        "other/*.otf",
+		"other/*.ttf",
+    ],
+}
+
