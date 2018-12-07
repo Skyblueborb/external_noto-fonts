@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ce334c6_f9c2d2f7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1056365
+      },
+      "writtenOn": "2018-12-07T02:31:57Z",
+      "side": 1,
+      "message": "nit: put b/74397117?",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 1
+      },
+      "revId": "cde0ec45529736f4c551e807582e22f9f070a7dd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36cd8efd_77515ca0",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1056365
+      },
+      "writtenOn": "2018-12-07T02:31:57Z",
+      "side": 1,
+      "message": "nit: license header",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
+      "revId": "cde0ec45529736f4c551e807582e22f9f070a7dd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
