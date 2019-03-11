@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "21d6ff63_4d139f92",
+        "filename": "emoji-compat/build.gradle",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2019-03-11T16:10:51Z",
+      "side": 1,
+      "message": "I think we should stop jarjaring this and just pull in the flatbuffers directly. This would require changes to the code usage of flatbuffers. Is this CL just your first step?",
+      "range": {
+        "startLine": 56,
+        "startChar": 4,
+        "endLine": 56,
+        "endChar": 56
+      },
+      "revId": "e90bfde88ae51c20675238a4f2ea09e2feea6f31",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
