@@ -22,6 +22,30 @@
       "revId": "e90bfde88ae51c20675238a4f2ea09e2feea6f31",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "81dd951e_b63551bf",
+        "filename": "emoji-compat/build.gradle",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2019-03-12T19:28:39Z",
+      "side": 1,
+      "message": "shall we unbreak the build/test etc this way and continue to depend on the maven artifact without changing the package name?\n\nWhat happens when developer wants to use a newer version of the flatbuffers in their project? When I first added this I thought this would be safer to the lib and developer since it will definitely stay behind and not updated to the latest version.",
+      "parentUuid": "21d6ff63_4d139f92",
+      "range": {
+        "startLine": 56,
+        "startChar": 4,
+        "endLine": 56,
+        "endChar": 56
+      },
+      "revId": "e90bfde88ae51c20675238a4f2ea09e2feea6f31",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
