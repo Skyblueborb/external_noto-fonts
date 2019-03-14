@@ -15,12 +15,7 @@
  */
 
 apply plugin: 'java'
-apply plugin: 'org.anarres.jarjar'
 apply plugin: 'maven'
-
-ext {
-    flatbuffersDir = '../../flatbuffers'
-}
 
 buildscript {
     boolean unbundleBuild = (new File("unbundled-build")).exists()
@@ -29,10 +24,6 @@ buildscript {
         if (unbundleBuild) {
             jcenter()
         }
-    }
-
-    dependencies {
-        classpath 'org.anarres.jarjar:jarjar-gradle:1.0.1'
     }
 }
 
@@ -48,25 +39,5 @@ compileJava {
 }
 
 dependencies {
-    compile 'com.google.flatbuffers:flatbuffers-java:1.8.0'
-}
-
-jarjar.repackage('rename') {
-    destinationName "noto-emoji-compat-java.jar"
-    from 'com.google.flatbuffers:flatbuffers-java:1.8.0'
-    from files(sourceSets.main.output.classesDirs)
-    dependsOn sourceSets.main.output
-    classRename 'com.google.flatbuffers.**', 'androidx.text.emoji.flatbuffer.@1'
-}
-
-configurations {
-    parser
-}
-
-artifacts {
-    parser(rename.destinationPath) {
-        name 'noto-emoji-compat'
-        type 'jar'
-        builtBy rename
-    }
+    implementation 'com.google.flatbuffers:flatbuffers-java:1.8.0'
 }
