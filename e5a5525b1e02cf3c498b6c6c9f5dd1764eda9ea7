@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00acc45d_25885138",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1060643
+      },
+      "writtenOn": "2019-04-09T22:42:57Z",
+      "side": 1,
+      "message": "It\u0027d have been better if the above line had been also changed to\n\"Update Noto Sans CJK to 2.001 from 2.000\".",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 21
+      },
+      "revId": "e5a5525b1e02cf3c498b6c6c9f5dd1764eda9ea7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
