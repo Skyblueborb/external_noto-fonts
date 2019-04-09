@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed875ca5_f5327ed3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1060643
+      },
+      "writtenOn": "2019-04-09T19:02:34Z",
+      "side": 1,
+      "message": "Let\u0027s make the CL description be a bit more accurate/detailed. \n\nThis CL updates only Noto Sans CJK to v 2.001 (it does not touch Noto Serif CJK).  One of the primary changes in 2.001 is adding a new Japanese era character, which should be mentioned. And, adding a link to Ken Lunde\u0027s release notes would be nice, too.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 0
+      },
+      "revId": "4e15d9461aa5681bb20a60206e08228b124f2d76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
