@@ -22,6 +22,29 @@
       "revId": "4e15d9461aa5681bb20a60206e08228b124f2d76",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6651396b_d88e6d3f",
+        "filename": "cjk/README.android",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1060643
+      },
+      "writtenOn": "2019-04-09T19:04:43Z",
+      "side": 1,
+      "message": "Because Noto Sans CJK and Noto Serif CJK do not share the version number, but I guess we can\u0027t have two version field.  \n\nGiven that, we\u0027d better specify the version for Noto Sans CJK and the version for Noto Serif CJK in Description field below.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 14
+      },
+      "revId": "4e15d9461aa5681bb20a60206e08228b124f2d76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
