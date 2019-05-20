@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a225780_6b3deb4d",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2019-05-20T17:41:21Z",
+      "side": 0,
+      "message": "Some fonts are excluded for limited storage device, e.g. watch or IoT devices.\nIs the new system handles MINIMAL_FONT_FOOTPRINT or SMALLER_FONT_FOOT_PRINT anywhere?",
+      "range": {
+        "startLine": 40,
+        "startChar": 9,
+        "endLine": 40,
+        "endChar": 31
+      },
+      "revId": "60f1545f6ec7746930a654c771fd6ef3270fbc76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
