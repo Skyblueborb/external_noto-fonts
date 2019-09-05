@@ -28,97 +28,39 @@ import java.nio.ByteOrder;
  */
 @SuppressWarnings("unused")
 public final class MetadataList extends Table {
-    public static MetadataList getRootAsMetadataList(ByteBuffer _bb) {
-        return getRootAsMetadataList(_bb, new MetadataList());
-    }
+  public static MetadataList getRootAsMetadataList(ByteBuffer _bb) { return getRootAsMetadataList(_bb, new MetadataList()); }
+  public static MetadataList getRootAsMetadataList(ByteBuffer _bb, MetadataList obj) { _bb.order(ByteOrder.LITTLE_ENDIAN); return (obj.__assign(_bb.getInt(_bb.position()) + _bb.position(), _bb)); }
+  public void __init(int _i, ByteBuffer _bb) { bb_pos = _i; bb = _bb; }
+  public MetadataList __assign(int _i, ByteBuffer _bb) { __init(_i, _bb); return this; }
 
-    public static MetadataList getRootAsMetadataList(ByteBuffer _bb, MetadataList obj) {
-        _bb.order(ByteOrder.LITTLE_ENDIAN);
-        return (obj.__assign(_bb.getInt(_bb.position()) + _bb.position(), _bb));
-    }
+  public int version() { int o = __offset(4); return o != 0 ? bb.getInt(o + bb_pos) : 0; }
+  public MetadataItem list(int j) { return list(new MetadataItem(), j); }
+  public MetadataItem list(MetadataItem obj, int j) { int o = __offset(6); return o != 0 ? obj.__assign(__indirect(__vector(o) + j * 4), bb) : null; }
+  public int listLength() { int o = __offset(6); return o != 0 ? __vector_len(o) : 0; }
+  public String sourceSha() { int o = __offset(8); return o != 0 ? __string(o + bb_pos) : null; }
+  public ByteBuffer sourceShaAsByteBuffer() { return __vector_as_bytebuffer(8, 1); }
 
-    public void __init(int _i, ByteBuffer _bb) {
-        bb_pos = _i;
-        bb = _bb;
-    }
+  public static int createMetadataList(FlatBufferBuilder builder,
+      int version,
+      int listOffset,
+      int sourceShaOffset) {
+    builder.startObject(3);
+    MetadataList.addSourceSha(builder, sourceShaOffset);
+    MetadataList.addList(builder, listOffset);
+    MetadataList.addVersion(builder, version);
+    return MetadataList.endMetadataList(builder);
+  }
 
-    public MetadataList __assign(int _i, ByteBuffer _bb) {
-        __init(_i, _bb);
-        return this;
-    }
-
-    public int version() {
-        int o = __offset(4);
-        return o != 0 ? bb.getInt(o + bb_pos) : 0;
-    }
-
-    public MetadataItem list(int j) {
-        return list(new MetadataItem(), j);
-    }
-
-    public MetadataItem list(MetadataItem obj, int j) {
-        int o = __offset(6);
-        return o != 0 ? obj.__assign(__indirect(__vector(o) + j * 4), bb) : null;
-    }
-
-    public int listLength() {
-        int o = __offset(6);
-        return o != 0 ? __vector_len(o) : 0;
-    }
-
-    public String sourceSha() {
-        int o = __offset(8);
-        return o != 0 ? __string(o + bb_pos) : null;
-    }
-
-    public ByteBuffer sourceShaAsByteBuffer() {
-        return __vector_as_bytebuffer(8, 1);
-    }
-
-    public static int createMetadataList(FlatBufferBuilder builder,
-            int version,
-            int listOffset,
-            int sourceShaOffset) {
-        builder.startObject(3);
-        MetadataList.addSourceSha(builder, sourceShaOffset);
-        MetadataList.addList(builder, listOffset);
-        MetadataList.addVersion(builder, version);
-        return MetadataList.endMetadataList(builder);
-    }
-
-    public static void startMetadataList(FlatBufferBuilder builder) {
-        builder.startObject(3);
-    }
-
-    public static void addVersion(FlatBufferBuilder builder, int version) {
-        builder.addInt(0, version, 0);
-    }
-
-    public static void addList(FlatBufferBuilder builder, int listOffset) {
-        builder.addOffset(1, listOffset, 0);
-    }
-
-    public static int createListVector(FlatBufferBuilder builder, int[] data) {
-        builder.startVector(4, data.length, 4);
-        for (int i = data.length - 1; i >= 0; i--) builder.addOffset(data[i]);
-        return builder.endVector();
-    }
-
-    public static void startListVector(FlatBufferBuilder builder, int numElems) {
-        builder.startVector(4, numElems, 4);
-    }
-
-    public static void addSourceSha(FlatBufferBuilder builder, int sourceShaOffset) {
-        builder.addOffset(2, sourceShaOffset, 0);
-    }
-
-    public static int endMetadataList(FlatBufferBuilder builder) {
-        int o = builder.endObject();
-        return o;
-    }
-
-    public static void finishMetadataListBuffer(FlatBufferBuilder builder, int offset) {
-        builder.finish(offset);
-    }
+  public static void startMetadataList(FlatBufferBuilder builder) { builder.startObject(3); }
+  public static void addVersion(FlatBufferBuilder builder, int version) { builder.addInt(0, version, 0); }
+  public static void addList(FlatBufferBuilder builder, int listOffset) { builder.addOffset(1, listOffset, 0); }
+  public static int createListVector(FlatBufferBuilder builder, int[] data) { builder.startVector(4, data.length, 4); for (int i = data.length - 1; i >= 0; i--) builder.addOffset(data[i]); return builder.endVector(); }
+  public static void startListVector(FlatBufferBuilder builder, int numElems) { builder.startVector(4, numElems, 4); }
+  public static void addSourceSha(FlatBufferBuilder builder, int sourceShaOffset) { builder.addOffset(2, sourceShaOffset, 0); }
+  public static int endMetadataList(FlatBufferBuilder builder) {
+    int o = builder.endObject();
+    return o;
+  }
+  public static void finishMetadataListBuffer(FlatBufferBuilder builder, int offset) { builder.finish(offset); }
 }
 
