@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "4f4c4c81_5fd4e926",
+        "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataItem.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1477013
+      },
+      "writtenOn": "2019-09-05T16:30:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5fdabb3_0b4b48ab",
+      "range": {
+        "startLine": 31,
+        "startChar": 9,
+        "endLine": 31,
+        "endChar": 15
+      },
+      "revId": "33e2d42b1219daa1698a4836677955ae4f7d218b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "42a897af_5e32fafe",
         "filename": "emoji-compat/supported-emojis/emojis.txt",
         "patchSetId": 1
