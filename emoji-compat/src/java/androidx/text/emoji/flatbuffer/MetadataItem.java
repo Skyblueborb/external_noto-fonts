@@ -92,13 +92,13 @@ public final class MetadataItem extends Table {
     }
 
     public static int createMetadataItem(FlatBufferBuilder builder,
-            int id,
-            boolean emojiStyle,
-            short sdkAdded,
-            short compatAdded,
-            short width,
-            short height,
-            int codepointsOffset) {
+                                         int id,
+                                         boolean emojiStyle,
+                                         short sdkAdded,
+                                         short compatAdded,
+                                         short width,
+                                         short height,
+                                         int codepointsOffset) {
         builder.startObject(7);
         MetadataItem.addCodepoints(builder, codepointsOffset);
         MetadataItem.addId(builder, id);

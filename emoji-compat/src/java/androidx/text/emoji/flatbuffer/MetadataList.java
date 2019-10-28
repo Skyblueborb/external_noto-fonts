@@ -76,9 +76,9 @@ public final class MetadataList extends Table {
     }
 
     public static int createMetadataList(FlatBufferBuilder builder,
-            int version,
-            int listOffset,
-            int sourceShaOffset) {
+                                         int version,
+                                         int listOffset,
+                                         int sourceShaOffset) {
         builder.startObject(3);
         MetadataList.addSourceSha(builder, sourceShaOffset);
         MetadataList.addList(builder, listOffset);
