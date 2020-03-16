@@ -79,7 +79,7 @@ public final class MetadataList extends Table {
             int version,
             int listOffset,
             int sourceShaOffset) {
-        builder.startTable(3);
+        builder.startObject(3);
         MetadataList.addSourceSha(builder, sourceShaOffset);
         MetadataList.addList(builder, listOffset);
         MetadataList.addVersion(builder, version);
@@ -87,7 +87,7 @@ public final class MetadataList extends Table {
     }
 
     public static void startMetadataList(FlatBufferBuilder builder) {
-        builder.startTable(3);
+        builder.startObject(3);
     }
 
     public static void addVersion(FlatBufferBuilder builder, int version) {
@@ -113,7 +113,7 @@ public final class MetadataList extends Table {
     }
 
     public static int endMetadataList(FlatBufferBuilder builder) {
-        int o = builder.endTable();
+        int o = builder.endObject();
         return o;
     }
 
