@@ -84,6 +84,30 @@
     },
     {
       "key": {
+        "uuid": "824a9b9f_9c8294a3",
+        "filename": "emoji-compat/data/flatbuffer_header.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-07-08T17:54:35Z",
+      "side": 1,
+      "message": "sure, thats reasoanble, we can keep * imports.",
+      "parentUuid": "2b6d5f5c_d25f8148",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 32
+      },
+      "revId": "2ebf49dcec78728cc79bd49c4eaa2dd1fc83989f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "259d7e2e_7add9531",
         "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataItem.java",
         "patchSetId": 3
