@@ -16,6 +16,23 @@
       "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "de774384_533e66a2",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2020-07-08T16:34:53Z",
+      "side": 1,
+      "message": "Is use of env py3 (as in my example) not acceptable? - it\u0027s a stronger declaration of wanting py3",
+      "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
