@@ -50,6 +50,52 @@
       "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2bde3140_b1229d08",
+        "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataItem.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1477013
+      },
+      "writtenOn": "2020-07-08T17:16:13Z",
+      "side": 1,
+      "message": "The same. Format.",
+      "range": {
+        "startLine": 31,
+        "startChar": 16,
+        "endLine": 31,
+        "endChar": 28
+      },
+      "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f6e08af_2e9197c2",
+        "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataList.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1477013
+      },
+      "writtenOn": "2020-07-08T17:16:13Z",
+      "side": 1,
+      "message": "I remember we should adjust the format as the old version, with lots of indents.\n\nThis format is not right.",
+      "range": {
+        "startLine": 30,
+        "startChar": 19,
+        "endLine": 30,
+        "endChar": 31
+      },
+      "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
