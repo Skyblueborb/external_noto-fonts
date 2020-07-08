@@ -120,6 +120,30 @@
       "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "76959ad8_6f27df58",
+        "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataList.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1477013
+      },
+      "writtenOn": "2020-07-08T17:59:54Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0893e809_a0fa2ea2",
+      "range": {
+        "startLine": 30,
+        "startChar": 19,
+        "endLine": 30,
+        "endChar": 31
+      },
+      "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
