@@ -1,0 +1,10 @@
+Verified+1: Siyamed Sinir <siyamed@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Roderick Sheeter <rsheeter@google.com>
+Code-Review+2: Qingqing Deng <qqd@google.com>
+Submitted-by: Siyamed Sinir <siyamed@google.com>
+Submitted-at: Wed, 08 Jul 2020 18:02:56 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/noto-fonts/+/1357922
+Project: platform/external/noto-fonts
+Branch: refs/heads/androidx-master-dev
