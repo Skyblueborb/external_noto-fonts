@@ -96,6 +96,30 @@
       "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0893e809_a0fa2ea2",
+        "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataList.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2020-07-08T17:51:03Z",
+      "side": 1,
+      "message": "Thanks Qingqing. \nWhen Rod created his CL, he did not format the code (since he did not know). I wondered if formatting was the wrong choice for this auto generated code.\n\nTherefore I did not format here. Let me continue the formatting question in the other CL (https://android-review.googlesource.com/c/platform/external/noto-fonts/+/1357923). Let\u0027s decide on there, and modify here as well if we decide to keep the formatting.",
+      "parentUuid": "9f6e08af_2e9197c2",
+      "range": {
+        "startLine": 30,
+        "startChar": 19,
+        "endLine": 30,
+        "endChar": 31
+      },
+      "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
