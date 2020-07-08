@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2616365_5d51eab7",
+        "filename": "emoji-compat/data/flatbuffer_header.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-07-08T17:06:27Z",
+      "side": 1,
+      "message": "android styleguide suggest not to use star imports, please change it back to exact imports",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 32
+      },
+      "revId": "2ebf49dcec78728cc79bd49c4eaa2dd1fc83989f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
