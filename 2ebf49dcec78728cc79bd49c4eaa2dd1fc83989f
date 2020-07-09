@@ -1,0 +1,10 @@
+Code-Review+1: Roderick Sheeter <rsheeter@google.com>
+Code-Review+2: Aurimas Liutikas <aurimas@google.com>
+Code-Review+2: Qingqing Deng <qqd@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Siyamed Sinir <siyamed@google.com>
+Submitted-at: Thu, 09 Jul 2020 01:15:00 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/noto-fonts/+/1357923
+Project: platform/external/noto-fonts
+Branch: refs/heads/androidx-master-dev
