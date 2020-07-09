@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba76ac2c_34391fe2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2020-07-09T15:32:42Z",
+      "side": 1,
+      "message": "Fixes related to comments from the recently merged emojicompat changes.",
+      "revId": "db63cefa8b675f786b7d0c33a92edc92b8795b7b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
