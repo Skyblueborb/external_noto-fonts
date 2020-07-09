@@ -88,6 +88,24 @@
     },
     {
       "key": {
+        "uuid": "cb72d903_39645803",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2020-07-09T02:47:40Z",
+      "side": 1,
+      "message": "https://android-review.googlesource.com/c/platform/external/noto-fonts/+/1358986",
+      "parentUuid": "2eb1f240_635f347a",
+      "revId": "c457ce768b5f709aeea8c89797ecb37626d2efdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2bde3140_b1229d08",
         "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataItem.java",
         "patchSetId": 1
