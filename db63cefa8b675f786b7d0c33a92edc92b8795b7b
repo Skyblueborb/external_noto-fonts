@@ -39,6 +39,30 @@
       "revId": "db63cefa8b675f786b7d0c33a92edc92b8795b7b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "48853e62_561746bf",
+        "filename": "emoji-compat/src/java/androidx/text/emoji/flatbuffer/MetadataList.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2020-07-09T17:29:40Z",
+      "side": 1,
+      "message": "Previously I would find \"public final class\" ignore everything up to that point and replace with the header. \n\nThat line is added by flatbuffers. In this change, I just insert the header at the top and do not touch the remaining.",
+      "parentUuid": "2810a8a4_1a5ede50",
+      "range": {
+        "startLine": 18,
+        "startChar": 2,
+        "endLine": 18,
+        "endChar": 69
+      },
+      "revId": "db63cefa8b675f786b7d0c33a92edc92b8795b7b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
