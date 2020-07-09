@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 #
 # Copyright (C) 2017 The Android Open Source Project
 #
@@ -136,9 +136,8 @@ def prepend_header_to_file(file_path):
     with open(file_path, "r+") as original_file:
         with open(FLATBUFFER_HEADER, "r") as copyright_file:
             original_content = original_file.read()
-            start_index = original_content.index("public final class")
             original_file.seek(0)
-            original_file.write(copyright_file.read() + "\n" + original_content[start_index:])
+            original_file.write(copyright_file.read() + "\n" + original_content)
 
 
 def update_flatbuffer_java_files(flatbuffer_java_dir):
