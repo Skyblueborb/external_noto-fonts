@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72d7f6c6_c0e182c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2020-11-18T10:06:39Z",
+      "side": 1,
+      "message": "I think good to ask Siyamed for EmojiCompat changes.",
+      "revId": "82de3f4418154e2eff1327f66fff0f657037b323",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
