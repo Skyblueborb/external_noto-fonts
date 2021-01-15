@@ -16,6 +16,23 @@
       "message": "LGTM",
       "revId": "da4f473c2fc3b24268ead933d093e141e4b32ab9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec3ab1ea_cc3a2dac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2021-01-15T06:56:17Z",
+      "side": 1,
+      "message": "Submitting with +2 by myself since looks Koji and Marek don\u0027t have +2.\nThey are agreed on this local modifications and future works.",
+      "revId": "da4f473c2fc3b24268ead933d093e141e4b32ab9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
