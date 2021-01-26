@@ -33,6 +33,23 @@
       "message": "Dash blank approves all OFL -\u003e BY_EXCEPTION_ONLY",
       "revId": "c0570a6933ac3f4dc471763bebc23c899c2c888c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9afc17d7_1056a633",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-01-26T00:36:18Z",
+      "side": 1,
+      "message": "Hi Seigo,\n\nYou will have to vote on the latest patchset before gerrit will let me submit this.\n\nThanks!",
+      "revId": "c0570a6933ac3f4dc471763bebc23c899c2c888c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
