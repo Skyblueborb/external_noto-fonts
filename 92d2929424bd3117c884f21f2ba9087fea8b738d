@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12dcd592_91a80f18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2021-02-25T01:42:39Z",
+      "side": 1,
+      "message": "This is cherry-pick from internal master.\n\nPTAL",
+      "revId": "92d2929424bd3117c884f21f2ba9087fea8b738d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
