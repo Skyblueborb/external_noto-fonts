@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11c23d4e_4db561b4",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-02-26T21:21:21Z",
+      "side": 1,
+      "message": "since this was an existing emoji \n\nneither SDK nor metadata needs a change.\n\nSDK does not need to change because the emoji was already there. \nMETADATA does not need a change because the real metadata has to additions or deletions.\n\nSDK one is important.",
+      "range": {
+        "startLine": 60,
+        "startChar": 14,
+        "endLine": 60,
+        "endChar": 16
+      },
+      "revId": "6c699d960c8c810be79ca84e0182f52bb5951052",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
