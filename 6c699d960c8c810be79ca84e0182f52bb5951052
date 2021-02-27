@@ -22,6 +22,30 @@
       },
       "revId": "6c699d960c8c810be79ca84e0182f52bb5951052",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a261f46_5162404e",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2021-02-27T00:27:39Z",
+      "side": 1,
+      "message": "Fixed, ty.",
+      "parentUuid": "11c23d4e_4db561b4",
+      "range": {
+        "startLine": 60,
+        "startChar": 14,
+        "endLine": 60,
+        "endChar": 16
+      },
+      "revId": "6c699d960c8c810be79ca84e0182f52bb5951052",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
