@@ -16,6 +16,24 @@
       "message": "1 question, did we add this syringe update to android?\nwe should add it aosp as well if it is not since they would diverge and would be very hard to know that they are different (android and emojicompat)",
       "revId": "57af74c81562eed41f85c5b4facaac70f164206b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98a2b25b_c8194d89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-03-01T15:59:35Z",
+      "side": 1,
+      "message": "unresolving the comment so that it is more visible.",
+      "parentUuid": "6b40f444_55543223",
+      "revId": "57af74c81562eed41f85c5b4facaac70f164206b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
