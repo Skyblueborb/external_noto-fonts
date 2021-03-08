@@ -52,6 +52,23 @@
       "parentUuid": "98a2b25b_c8194d89",
       "revId": "57af74c81562eed41f85c5b4facaac70f164206b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "559bd7b0_6c181205",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2021-03-08T23:49:31Z",
+      "side": 1,
+      "message": "Setting bypass presubmit per discussion w/Siyamed",
+      "revId": "57af74c81562eed41f85c5b4facaac70f164206b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
