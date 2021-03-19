@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "132d0984_1df11fd4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-03-19T16:00:07Z",
+      "side": 1,
+      "message": "there shouldnt have been a change in the font with this change. \njust sent an email to rsheeter as well, but I believe it is because the noto-font platform is currently different than the emojicompat font.\n\nLet\u0027s remove this font from the CL to unblock the CL, and make sure the platform font is the same as emojicompat font (there was a recent change by rsheeter where he fixed the design of a glyph).",
+      "range": {
+        "startLine": 19,
+        "startChar": 29,
+        "endLine": 19,
+        "endChar": 43
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1583a31_0b9175b8",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-03-19T16:00:07Z",
+      "side": 1,
+      "message": "this is the same as the DATA_DIR \n\n```\nDATA_DIR \u003d os.path.join(SCRIPT_DIR, \u0027data\u0027)\n```\n\nLets try to unify them since it is a call for a little trouble in the future.\n\nThis comment applies to other places as well.",
+      "range": {
+        "startLine": 94,
+        "startChar": 34,
+        "endLine": 94,
+        "endChar": 39
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "399544b2_34632084",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-03-19T16:00:07Z",
+      "side": 1,
+      "message": "you might want to update the document that Rod uses as well. \nI will add Rod to the CL.",
+      "range": {
+        "startLine": 690,
+        "startChar": 71,
+        "endLine": 690,
+        "endChar": 93
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
