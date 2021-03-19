@@ -66,6 +66,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2422521d_5350e5a0",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2021-03-19T16:48:20Z",
+      "side": 1,
+      "message": "The main edit here is removing SCRIPT_DIR which is in DATA_DIR, though I _could_ remove that from DATA_DIR and then add it in OUTPUT_META_FILE.\n\nWDYT?",
+      "parentUuid": "f1583a31_0b9175b8",
+      "range": {
+        "startLine": 94,
+        "startChar": 34,
+        "endLine": 94,
+        "endChar": 39
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d12325c5_0e57955f",
         "filename": "emoji-compat/createfont.py",
         "patchSetId": 1
@@ -77,6 +101,24 @@
       "writtenOn": "2021-03-19T16:44:08Z",
       "side": 1,
       "message": "Suggest passing args as a list:\n\nflatc_command \u003d [\n  \u0027flatc\u0027,\n  \u0027-o\u0027,\n  ...etc...\n]\nTakes away any need to worry about quoting, missing spaces, etc.",
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cedef001_e326c398",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 661,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2021-03-19T16:48:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d12325c5_0e57955f",
       "revId": "d1876150c0066c53b232847bce933772b083196b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
@@ -135,6 +177,30 @@
       "side": 1,
       "message": "Suggest defaulting the flatbuffer-project-dir as other than to test things it seems like you\u0027d always want the copy at ../emoji-compat-flatbuffers relative to the script",
       "parentUuid": "399544b2_34632084",
+      "range": {
+        "startLine": 690,
+        "startChar": 71,
+        "endLine": 690,
+        "endChar": 93
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "621d4e3b_50a75aac",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2021-03-19T16:48:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "022130c4_da576443",
       "range": {
         "startLine": 690,
         "startChar": 71,
