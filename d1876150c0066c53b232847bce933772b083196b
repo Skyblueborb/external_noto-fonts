@@ -66,6 +66,40 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d12325c5_0e57955f",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 661,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2021-03-19T16:44:08Z",
+      "side": 1,
+      "message": "Suggest passing args as a list:\n\nflatc_command \u003d [\n  \u0027flatc\u0027,\n  \u0027-o\u0027,\n  ...etc...\n]\nTakes away any need to worry about quoting, missing spaces, etc.",
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b131374_444ac590",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 667,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2021-03-19T16:44:08Z",
+      "side": 1,
+      "message": "unrelated, it would be nice to specify which versions not just \"older\"",
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "399544b2_34632084",
         "filename": "emoji-compat/createfont.py",
         "patchSetId": 1
@@ -77,6 +111,30 @@
       "writtenOn": "2021-03-19T16:00:07Z",
       "side": 1,
       "message": "you might want to update the document that Rod uses as well. \nI will add Rod to the CL.",
+      "range": {
+        "startLine": 690,
+        "startChar": 71,
+        "endLine": 690,
+        "endChar": 93
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "022130c4_da576443",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2021-03-19T16:44:08Z",
+      "side": 1,
+      "message": "Suggest defaulting the flatbuffer-project-dir as other than to test things it seems like you\u0027d always want the copy at ../emoji-compat-flatbuffers relative to the script",
+      "parentUuid": "399544b2_34632084",
       "range": {
         "startLine": 690,
         "startChar": 71,
