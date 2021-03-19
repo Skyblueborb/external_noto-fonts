@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "73f32ab9_22f62903",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-03-19T19:41:52Z",
+      "side": 1,
+      "message": "this change is merged: ag/13931373\n\nit should flow into master as well.\n\ntherefore if you sync repo and run the script again it shouldnt create a change in the font.",
+      "parentUuid": "132d0984_1df11fd4",
+      "range": {
+        "startLine": 19,
+        "startChar": 29,
+        "endLine": 19,
+        "endChar": 43
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "a3bf9a0f_8d618fae",
@@ -78,6 +102,30 @@
       "side": 1,
       "message": "The main edit here is removing SCRIPT_DIR which is in DATA_DIR, though I _could_ remove that from DATA_DIR and then add it in OUTPUT_META_FILE.\n\nWDYT?",
       "parentUuid": "f1583a31_0b9175b8",
+      "range": {
+        "startLine": 94,
+        "startChar": 34,
+        "endLine": 94,
+        "endChar": 39
+      },
+      "revId": "d1876150c0066c53b232847bce933772b083196b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f143ada_dd04cbc5",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2021-03-19T19:41:52Z",
+      "side": 1,
+      "message": "I currently do not know what exactly is where, but lets go with the way where the directories are defined at the top and we use them. \n\nit will be hard for any change to happen in this case. \n\nI didnt understand the output meta file part.\n\nis this not under FLATBUFFER_DEFAULT_MODULE_DIR directory?",
+      "parentUuid": "2422521d_5350e5a0",
       "range": {
         "startLine": 94,
         "startChar": 34,
