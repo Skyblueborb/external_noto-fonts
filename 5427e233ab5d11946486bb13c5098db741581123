@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d3a6dd8_e249750d",
+        "filename": "emoji-compat/createfont.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1164745
+      },
+      "writtenOn": "2021-03-20T02:00:45Z",
+      "side": 1,
+      "message": "Optional, consider wrapping in abspath",
+      "revId": "5427e233ab5d11946486bb13c5098db741581123",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
