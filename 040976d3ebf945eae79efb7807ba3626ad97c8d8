@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8ef82e3_fbbe6b24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2021-03-20T03:28:51Z",
+      "side": 1,
+      "message": "+2 for code change, did not verify font.",
+      "revId": "040976d3ebf945eae79efb7807ba3626ad97c8d8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
