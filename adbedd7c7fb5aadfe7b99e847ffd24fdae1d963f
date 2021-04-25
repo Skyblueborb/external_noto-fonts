@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3e9a9c0_c4e05edc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1101403
+      },
+      "writtenOn": "2021-04-25T07:15:25Z",
+      "side": 1,
+      "message": "This is the one we discussed off line. Can you advise what to do with this? I\u0027m fine to defer, land, or someone to pick up and continue.",
+      "revId": "adbedd7c7fb5aadfe7b99e847ffd24fdae1d963f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
