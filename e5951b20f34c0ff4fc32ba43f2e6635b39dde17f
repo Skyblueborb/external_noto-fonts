@@ -16,6 +16,23 @@
       "message": "PTAL",
       "revId": "e5951b20f34c0ff4fc32ba43f2e6635b39dde17f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1fcf5ba_d4dc6517",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2021-05-03T15:59:43Z",
+      "side": 1,
+      "message": "This matches the latest fonts in downloadable fonts, and catches up androidx-main\u0027s NotoColorEmojiCompat.ttf",
+      "revId": "e5951b20f34c0ff4fc32ba43f2e6635b39dde17f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
