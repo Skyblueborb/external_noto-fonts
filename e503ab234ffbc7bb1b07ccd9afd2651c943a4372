@@ -1,0 +1,24 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000012270618",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1745374?revision\u003d4",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "c0a6e6ca_0c8b3f74",
+        "filename": "emoji-compat-flatbuffers/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2021-06-25T18:57:54Z",
+      "side": 1,
+      "message": "Android.​mk files are being deprecated, please use blueprint files (go/soong) to define the modules",
+      "revId": "e503ab234ffbc7bb1b07ccd9afd2651c943a4372",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
