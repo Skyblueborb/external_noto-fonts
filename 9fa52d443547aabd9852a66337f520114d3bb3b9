@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a598c0e0_d2d796a0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2021-06-25T18:49:55Z",
+      "side": 1,
+      "message": "nit: please add BUB line?",
+      "revId": "9fa52d443547aabd9852a66337f520114d3bb3b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "166f1bc4_350dbd17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2021-06-25T18:49:55Z",
+      "side": 1,
+      "message": "Looks good to go.\n\nThanks!",
+      "revId": "9fa52d443547aabd9852a66337f520114d3bb3b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
