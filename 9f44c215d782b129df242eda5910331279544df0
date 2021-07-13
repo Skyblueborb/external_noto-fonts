@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7019c88_a9f47aa3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2021-07-13T21:58:57Z",
+      "side": 1,
+      "message": "Sorry, please stop reviewing this CL.\nThe internal master has split font structure and compat builder script is not ready for them.\n\nPlease review https://android-review.googlesource.com/c/platform/external/noto-fonts/+/1764837 only.\n\nThank you.",
+      "revId": "9f44c215d782b129df242eda5910331279544df0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
