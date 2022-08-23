@@ -67,7 +67,6 @@ prebuilt_font {
     src: "NotoSerif-BoldItalic.ttf",
 }
 
-
 prebuilt_font {
     name: "NotoNaskhArabic-Bold.ttf",
     src: "NotoNaskhArabic-Bold.ttf",
@@ -829,7 +828,7 @@ prebuilt_font {
 }
 
 prebuilt_font {
-    name: "NotoSansWancho-Regular.otf",
+    name: "NotoSansWancho-Regular.otf_lib",
     src: "NotoSansWancho-Regular.otf",
 }
 
