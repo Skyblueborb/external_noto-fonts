@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bc327b1_d316193f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1106808
+      },
+      "writtenOn": "2022-08-26T16:28:57Z",
+      "side": 1,
+      "message": "can you please run the tests under the following directories, and add to the commit message?\n\nhttps://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:emoji2/emoji2/\n\n\nand \n\nhttps://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:emoji2/emoji2-bundled/\n\nIf you need further help for tests please let me know, I can run them as well. \n\nI checked the tests that were run and didn\u0027t see an androidx test run.\n",
+      "revId": "fe53b8933a267254feb8f3514ee7f5cda6d12879",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
