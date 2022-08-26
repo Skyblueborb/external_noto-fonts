@@ -52,6 +52,24 @@
       "parentUuid": "3b3b3319_08dbf670",
       "revId": "fe53b8933a267254feb8f3514ee7f5cda6d12879",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bfc2437_d7ac16e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1057232
+      },
+      "writtenOn": "2022-08-26T18:29:41Z",
+      "side": 1,
+      "message": "The tests in AndroidX pass after I updated the build.gradle to use com.google.flatbuffers:flatbuffers-java:2.0.0.\n\n(AndroidX also need to update the maven prebuilt)",
+      "parentUuid": "905e361a_67b7f3d6",
+      "revId": "fe53b8933a267254feb8f3514ee7f5cda6d12879",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
