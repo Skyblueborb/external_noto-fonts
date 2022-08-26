@@ -16,6 +16,24 @@
       "message": "can you please run the tests under the following directories, and add to the commit message?\n\nhttps://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:emoji2/emoji2/\n\n\nand \n\nhttps://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:emoji2/emoji2-bundled/\n\nIf you need further help for tests please let me know, I can run them as well. \n\nI checked the tests that were run and didn\u0027t see an androidx test run.\n",
       "revId": "fe53b8933a267254feb8f3514ee7f5cda6d12879",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b3b3319_08dbf670",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1057232
+      },
+      "writtenOn": "2022-08-26T16:30:44Z",
+      "side": 1,
+      "message": "Siyamed, I am not sure how to run the androidx tests. do you have some instructions?",
+      "parentUuid": "5bc327b1_d316193f",
+      "revId": "fe53b8933a267254feb8f3514ee7f5cda6d12879",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
