@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35d6372f_e3b4e886",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1242929
+      },
+      "writtenOn": "2022-08-30T01:58:08Z",
+      "side": 1,
+      "message": "The file change itself looks good, but there\u0027s something in the build that causes \"HOST module dev_sign_bundle requires non-existent HOST module: avbtool\" error. This doesn\u0027t seem to be related to the change.",
+      "revId": "5ef091ce00573143040531616b26c73dd8fda350",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
