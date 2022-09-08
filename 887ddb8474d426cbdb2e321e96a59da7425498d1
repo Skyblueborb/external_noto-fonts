@@ -16,6 +16,24 @@
       "message": "This might not be the best way to solve it for these, because these are prebuilts, probably from upstream somewhere, so this is going to create a merge conflict if they are ever updated.  Putting them into a subdirectory might be better in this case.",
       "revId": "887ddb8474d426cbdb2e321e96a59da7425498d1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1f3d36a_25dd8dd1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1948227
+      },
+      "writtenOn": "2022-09-08T18:27:12Z",
+      "side": 1,
+      "message": "thanks for the suggestion. I\u0027ll follow that approach in a new CL",
+      "parentUuid": "51fc3f85_f774a834",
+      "revId": "887ddb8474d426cbdb2e321e96a59da7425498d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
