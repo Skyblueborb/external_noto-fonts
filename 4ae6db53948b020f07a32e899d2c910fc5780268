@@ -16,6 +16,24 @@
       "message": "This does seem like a much better solution, especially if it means we don\u0027t have to update that test.",
       "revId": "4ae6db53948b020f07a32e899d2c910fc5780268",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5579bb7_57fdfc6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1948227
+      },
+      "writtenOn": "2022-09-09T21:22:23Z",
+      "side": 1,
+      "message": "Yes - it also prevents (AFAICT) issues with other people using the filegroup. I\u0027m a  bit embarrassed I didn\u0027t think of it for the other CL.",
+      "parentUuid": "17fa3e6b_ee9210ca",
+      "revId": "4ae6db53948b020f07a32e899d2c910fc5780268",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
