@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17fa3e6b_ee9210ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2022-09-09T17:21:02Z",
+      "side": 1,
+      "message": "This does seem like a much better solution, especially if it means we don\u0027t have to update that test.",
+      "revId": "4ae6db53948b020f07a32e899d2c910fc5780268",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
