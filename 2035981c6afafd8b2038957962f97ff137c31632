@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac00c4a4_6d12988d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2022-09-16T16:06:46Z",
+      "side": 1,
+      "message": "Reverts don\u0027t resolve merge conflicts.",
+      "revId": "2035981c6afafd8b2038957962f97ff137c31632",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
