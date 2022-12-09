@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "561e232c_1324cf89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2022-12-09T05:48:15Z",
+      "side": 1,
+      "message": "Just in case, we no longer need to maintain the emoji_metadata.txt and emojis.txt, right?\n\nIf so, shall we remove them? (no need to do in this CL thoguht).\nFYI, this is the CL last time we updated the Emoji font file.\n\nhttps://android-review.git.corp.google.com/c/platform/external/noto-fonts/+/1908070",
+      "revId": "7f787ae558d8223c4693e0c717a8fbcba4c7a759",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
