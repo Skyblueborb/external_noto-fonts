@@ -16,6 +16,24 @@
       "message": "Leaving a comment not to autosubmit.\n\nCopied from my previous comment. Please feel free to resolve this comment and submit if this is not an issue.\n\nThanks!\n\n\u003c\u003c\u003c\n\nJust in case, we no longer need to maintain the emoji_metadata.txt and emojis.txt, right?\n\nIf so, shall we remove them? (no need to do in this CL thoguht).\nFYI, this is the CL last time we updated the Emoji font file.\n\nhttps://android-review.git.corp.google.com/c/platform/external/noto-fonts/+/1908070",
       "revId": "217f872f0b6f0e2cd29c4265f8176e07531e537f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f411a63a_3dbfedac",
+        "filename": "emoji-compat/font/NotoColorEmojiCompat.ttf",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2022-12-14T20:42:29Z",
+      "side": 0,
+      "message": "They\u0027re not generated upstream - I can sync and see if we want to generate them again.",
+      "parentUuid": "4c94ef52_3d56fdd8",
+      "revId": "217f872f0b6f0e2cd29c4265f8176e07531e537f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
