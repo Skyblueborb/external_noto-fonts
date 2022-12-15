@@ -50,6 +50,60 @@
       "message": "+2 for unblocking the work.\nPlease check my previous comment before submit the change.\n\nThank you.",
       "revId": "7ef3a7d04849768f4f968ee7247108d032967621",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "817cb668_05ec9eb0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2022-12-15T22:37:50Z",
+      "side": 1,
+      "message": "This involves the asset changes (fix was to rollback then rollforward correctly)",
+      "parentUuid": "d43837d2_59434305",
+      "revId": "7ef3a7d04849768f4f968ee7247108d032967621",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3fb2b9c_6251b0c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2022-12-15T22:37:50Z",
+      "side": 1,
+      "message": "Done. Fetch script added.",
+      "parentUuid": "c808eecd_77e2693d",
+      "revId": "7ef3a7d04849768f4f968ee7247108d032967621",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "871f7df5_ba93fcbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2022-12-15T22:37:50Z",
+      "side": 1,
+      "message": "Thanks.\n\nI\u0027ve added a fetch script and updated the metadata and emoji files, which removed previous +2.\n\nReady for review again.",
+      "parentUuid": "210b19f3_5615a125",
+      "revId": "7ef3a7d04849768f4f968ee7247108d032967621",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
