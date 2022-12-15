@@ -16,6 +16,23 @@
       "message": "Rod, can you help me track down emojis.txt and emoji_metadata.txt, or should we remove those and not generate them?",
       "revId": "7ef3a7d04849768f4f968ee7247108d032967621",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d43837d2_59434305",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2022-12-15T02:21:29Z",
+      "side": 1,
+      "message": "Does this includes the asset changes? or just header version fix?\n\n+475KB for the header changes doesn\u0027t make sense.\nIf this includes the asset changes, lgtm",
+      "revId": "7ef3a7d04849768f4f968ee7247108d032967621",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
