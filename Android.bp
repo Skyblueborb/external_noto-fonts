@@ -18,7 +18,6 @@
 //     DEPENDING ON IT IN YOUR PROJECT. ***
 package {
     default_applicable_licenses: [
-        "external_noto-fonts_cjk_license",
         "external_noto-fonts_other_license",
     ],
 }
@@ -27,8 +26,25 @@ filegroup {
     name: "recovery_noto-fonts_dep",
     export_to_make_var: "recovery_noto-fonts_dep",
     srcs: [
-        "cjk/*.ttc",
-        "other/data/*.otf",
-        "other/data/*.ttf",
+      "notosanscjk/NotoSansCJK-Regular.ttc",
+      "notonaskharabicui/NotoNaskhArabicUI-Regular.ttf",
+      "notosansarmenian/NotoSansArmenian-VF.ttf",
+      "notosansbengaliui/NotoSansBengaliUI-VF.ttf",
+      "notosansdevanagariui/NotoSansDevanagariUI-VF.ttf",
+      "notosansethiopic/NotoSansEthiopic-VF.ttf",
+      "notosansgeorgian/NotoSansGeorgian-VF.ttf",
+      "notosansgujaratiui/NotoSansGujaratiUI-Regular.ttf",
+      "notosansgurmukhiui/NotoSansGurmukhiUI-VF.ttf",
+      "notosanshebrew/NotoSansHebrew-Regular.ttf",
+      "notosanskannadaui/NotoSansKannadaUI-VF.ttf",
+      "notosanskhmerui/NotoSansKhmerUI-Regular.ttf",
+      "notosanslaoui/NotoSansLaoUI-Regular.ttf",
+      "notosansmalayalamui/NotoSansMalayalamUI-VF.ttf",
+      "notosansmyanmarui/NotoSansMyanmarUI-Regular.otf",
+      "notosansoriya/NotoSansOriya-Regular.ttf",
+      "notosanssinhalaui/NotoSansSinhalaUI-VF.ttf",
+      "notosanstamilui/NotoSansTamilUI-VF.ttf",
+      "notosansteluguui/NotoSansTeluguUI-VF.ttf",
+      "notosansthaiui/NotoSansThaiUI-Regular.ttf",
     ],
 }
