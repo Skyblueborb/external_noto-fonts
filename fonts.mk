@@ -50,6 +50,7 @@ PRODUCT_PACKAGES := \
     NotoSansCham-Regular.ttf \
     NotoSansCherokee-Regular.ttf \
     NotoSansCJK-Regular.ttc \
+    NotoSansCJK-VF.otf.ttc \
     NotoSansCoptic-Regular.ttf \
     NotoSansCuneiform-Regular.ttf \
     NotoSansCypriot-Regular.ttf \
@@ -188,6 +189,7 @@ PRODUCT_PACKAGES := \
     NotoSerifArmenian-VF.ttf \
     NotoSerifBengali-VF.ttf \
     NotoSerifCJK-Regular.ttc \
+    NotoSerifCJK-VF.otf.ttc \
     NotoSerifDevanagari-VF.ttf \
     NotoSerifDogra-Regular.ttf \
     NotoSerifEthiopic-VF.ttf \
