@@ -55,3 +55,13 @@ prebuilt_font {
     name: "NotoSerifCJK-Regular.ttc",
     src: "NotoSerifCJK-Regular.ttc",
 }
+
+prebuilt_font {
+    name: "NotoSansCJK-VF.otf.ttc",
+    src: "NotoSansCJK-VF.otf.ttc",
+}
+
+prebuilt_font {
+    name: "NotoSerifCJK-VF.otf.ttc",
+    src: "NotoSerifCJK-VF.otf.ttc",
+}
