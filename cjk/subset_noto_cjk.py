@@ -80,7 +80,7 @@ CONTROL_CHARS = tool_utils.parse_int_ranges('0000-001F')
 
 EXCLUDED_CODEPOINTS = sorted(EMOJI_IN_CJK | ANDROID_EMOJI | CONTROL_CHARS)
 
-TTC_NAMES = ('NotoSansCJK-Regular.ttc', 'NotoSerifCJK-Regular.ttc')
+TTC_NAMES = ('NotoSansCJK-VF.otf.ttc', 'NotoSerifCJK-VF.otf.ttc')
 
 
 def remove_from_cmap(infile, outfile, exclude=frozenset()):
