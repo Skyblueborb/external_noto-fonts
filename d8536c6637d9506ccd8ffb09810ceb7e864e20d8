@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef040e57_d071fef9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2023-04-05T05:00:12Z",
+      "side": 1,
+      "message": "PTAL\n\nThis is a cherry pick from internal branch.\n\nThank you.",
+      "revId": "d8536c6637d9506ccd8ffb09810ceb7e864e20d8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
