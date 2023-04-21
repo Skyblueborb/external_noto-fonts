@@ -1,3 +1,4 @@
+<<<<<<< HEAD   (e0777d Merge "Snap for 7413806 from 4960963e53284be9e24689959bc5ac5)
 #!/usr/bin/env python3
 #
 # Copyright (C) 2017 The Android Open Source Project
@@ -710,3 +711,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+=======
+>>>>>>> BRANCH (8f6cec Merge "Revert "Revert "Bump emojicompat bundled font to 15"")
