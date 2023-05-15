@@ -36,3 +36,5 @@ dependencies {
 // The "javadoc" task is unused so we don't want it to appear in the output of `./gradlew tasks`
 // So, we set the group to null
 tasks["javadoc"].group = null
+
+version = "1.0.0-alpha00"
