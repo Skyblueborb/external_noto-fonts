@@ -16,6 +16,24 @@
       "message": "I am not qualified to review this, sorry. Maybe @justinghan@google.com?",
       "revId": "e6e10681d56216b1288403f80ad0b1ace933f76a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4666d58c_5345ad9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1307979
+      },
+      "writtenOn": "2023-08-24T17:16:45Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8076158d_addc787b",
+      "revId": "e6e10681d56216b1288403f80ad0b1ace933f76a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
