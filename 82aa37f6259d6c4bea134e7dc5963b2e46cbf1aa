@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bdedaeb_15bb35f3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2023-11-10T18:25:37Z",
+      "side": 1,
+      "message": "Please test this by:\n\n1. Running all tests in emoji2\n2. Running `support-emoji-demos` sample app and confirming the correct fully-integrated behavior related to recently added emojis.\n\nThis commit should probably also contain\n\n- emoji_metadata.txt\n- emojis.txt\n\nWhich should be updated via fetch.sh?",
+      "revId": "82aa37f6259d6c4bea134e7dc5963b2e46cbf1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
