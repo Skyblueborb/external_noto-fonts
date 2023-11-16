@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7da874d6_7647fe61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2023-11-16T22:10:40Z",
+      "side": 1,
+      "message": "Please confirm integration in the emoji demo app prior to merging.",
+      "revId": "382b7d50989a73624c21ffe823a3088edb0a8a65",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
