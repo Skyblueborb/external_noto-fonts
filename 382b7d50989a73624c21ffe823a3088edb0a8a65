@@ -16,6 +16,24 @@
       "message": "Please confirm integration in the emoji demo app prior to merging.",
       "revId": "382b7d50989a73624c21ffe823a3088edb0a8a65",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68af1479_971ba9a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1937066
+      },
+      "writtenOn": "2023-11-27T15:38:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7da874d6_7647fe61",
+      "revId": "382b7d50989a73624c21ffe823a3088edb0a8a65",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
