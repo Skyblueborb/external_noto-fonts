@@ -1,3 +1,4 @@
+<<<<<<< HEAD   (586902 Merge "Snap for 5754798 from 35600966a2ba2a3b8c1b311066113db)
 #!/usr/bin/python
 #
 # Copyright (C) 2017 The Android Open Source Project
@@ -674,3 +675,5 @@ if __name__ == '__main__':
         print_usage()
         sys.exit(1)
     EmojiFontCreator(sys.argv[1], sys.argv[2]).create_font()
+=======
+>>>>>>> BRANCH (8f6cec Merge "Revert "Revert "Bump emojicompat bundled font to 15"")
