@@ -34,6 +34,23 @@
       "parentUuid": "7da874d6_7647fe61",
       "revId": "382b7d50989a73624c21ffe823a3088edb0a8a65",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04a7241d_837594ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1937066
+      },
+      "writtenOn": "2023-11-28T09:16:19Z",
+      "side": 1,
+      "message": "update to 2.041",
+      "revId": "382b7d50989a73624c21ffe823a3088edb0a8a65",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
