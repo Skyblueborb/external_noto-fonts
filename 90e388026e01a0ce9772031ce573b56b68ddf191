@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17d6f35c_4f3f03df",
+        "filename": "emoji-compat-flatbuffers/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1376662
+      },
+      "writtenOn": "2024-01-29T18:55:14Z",
+      "side": 0,
+      "message": "Appears safe. Note https://github.com/googlefonts/emojicompat/blob/main/src/androidx/text/emoji/flatbuffer/MetadataList.py",
+      "revId": "90e388026e01a0ce9772031ce573b56b68ddf191",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
