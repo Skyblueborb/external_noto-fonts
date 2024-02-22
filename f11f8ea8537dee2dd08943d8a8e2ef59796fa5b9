@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a76af01_b1844eb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1275415
+      },
+      "writtenOn": "2024-02-22T08:03:55Z",
+      "side": 1,
+      "message": "No offense Seigo, We\u0027re so glad to see this CL ,it helps a lot to CJK android users. 👏",
+      "revId": "f11f8ea8537dee2dd08943d8a8e2ef59796fa5b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
