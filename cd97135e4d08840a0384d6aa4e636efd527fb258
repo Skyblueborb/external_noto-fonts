@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf78677d_21c79fac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1317851
+      },
+      "writtenOn": "2024-03-06T02:06:06Z",
+      "side": 1,
+      "message": "nit: fix Bpfmt for the Android.bp.",
+      "revId": "cd97135e4d08840a0384d6aa4e636efd527fb258",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
