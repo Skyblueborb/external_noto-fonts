@@ -16,6 +16,24 @@
       "message": "nit: fix Bpfmt for the Android.bp.",
       "revId": "cd97135e4d08840a0384d6aa4e636efd527fb258",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e14ca04a_0fea366f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1308044
+      },
+      "writtenOn": "2024-03-06T03:49:13Z",
+      "side": 1,
+      "message": "Thanks, just update.",
+      "parentUuid": "cf78677d_21c79fac",
+      "revId": "cd97135e4d08840a0384d6aa4e636efd527fb258",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
